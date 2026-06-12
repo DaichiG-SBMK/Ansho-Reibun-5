@@ -4,7 +4,7 @@ id,jp,model,alts
 3,そういう事故はときどき起こりうる．（８語）,Such accidents can happen from time to time.,
 4,その話が本当のはずがない．,That story can’t be true.,can't=>cannot
 5,いったいそのうわさは本当だろうか．とても信じられない．,Can the rumor be true? I cannot believe it.,cannot=>can't
-6,トム，君の消しゴムを使ってもいい？,"Can I use your eraser, Tom?","Can I use your eraser, Tom?=>Tom, can I use your eraser?|Yes, of course. =>Yes, of course you can."
+6,トム，君の消しゴムを使ってもいい？,"Can I use your eraser, Tom?","Can I use your eraser, Tom?=>Tom, can I use your eraser?"
 7,ちょっと待ってくれる？,Can you wait a minute?,
 8,ホール先生，質問してもよろしいですか．,"May I ask you a question, Mr. Hall?","Mr.=>Ms.|ask you=>ask|May I ask you a question, Mr. Hall?=>Mr. Hall, may I ask you a question?"
 9,そのニュースは本当かもしれない．,The news may be true.,
@@ -33,7 +33,7 @@ id,jp,model,alts
 32,傘が見つからない．電車に置き忘れたのかもしれない．,I can’t find my umbrella.  I may have left it on the train.,can't=>cannot
 33,ジムはちょうど今出たところだ．そう遠くに行ったはずがない．,Jim has just left.  He can’t have gone very far.,can't=>cannot|just left=>just left now
 34,前もって電話をしておいてくれればよかったのに．,You should have called me beforehand.,should=>ought to
-35,一列に並んで待っていただけませんか．,"Would you wait in line, please?",Would you please wait in line?|Would you wait in line?
+35,一列に並んで待っていただけませんか．,"Would you wait in line, please?",Would you please wait in line?|Would you wait in line?|Would=>Could
 36,その写真を見せていただけますか［見てもよろしいですか］．,Could I see the picture?,
 37,このジーンズを試着したいのですが．,I’d like to try on these jeans.,I'd=>I would|I'd like to try these jeans on.
 38,ミルクはいかがですか．（ていねい）,Would you like some milk?,
