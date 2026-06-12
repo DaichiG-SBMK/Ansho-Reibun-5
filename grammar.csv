@@ -4,9 +4,9 @@ id,jp,model,alts
 3,そういう事故はときどき起こりうる．（８語）,Such accidents can happen from time to time.,
 4,その話が本当のはずがない．,That story can’t be true.,can't=>cannot
 5,いったいそのうわさは本当だろうか．とても信じられない．,Can the rumor be true? I cannot believe it.,cannot=>can't
-6,トム，君の消しゴムを使ってもいい？ ― うん，もちろんいいよ．(間は半角スペース),"Can I use your eraser, Tom? Yes, of course.","Can I use your eraser, Tom?=>Tom, can I use your eraser?|Yes, of course. =>Yes, of course you can."
-7,ちょっと待ってくれる？ ― もちろん．(間は半角スペース),Can you wait a minute? Sure.,
-8,ホール先生，質問してもよろしいですか．― もちろん，どうぞ．(間は半角スペース),"May I ask you a question, Mr. Hall? Of course, go ahead.","Mr.=>Ms.|ask you=>ask|May I ask you a question, Mr. Hall?=>Mr. Hall, may I ask you a question?"
+6,トム，君の消しゴムを使ってもいい？,"Can I use your eraser, Tom?","Can I use your eraser, Tom?=>Tom, can I use your eraser?|Yes, of course. =>Yes, of course you can."
+7,ちょっと待ってくれる？,Can you wait a minute?,
+8,ホール先生，質問してもよろしいですか．,"May I ask you a question, Mr. Hall?","Mr.=>Ms.|ask you=>ask|May I ask you a question, Mr. Hall?=>Mr. Hall, may I ask you a question?"
 9,そのニュースは本当かもしれない．,The news may be true.,
 10,私は小論文を火曜日までに提出しなければならない．,I must hand in my essay by Tuesday.,hand in=>submit|must=>have to
 11,式典ではジャケットを着用しなければなりませんか．― ええ、しなければなりません. / いいえ、その必要はありません. (間は半角スペース),"Must I wear a jacket at the ceremony? Yes, you must. No, you don’t have to.",Must I=>Do I have to|you must=>you have to
@@ -17,8 +17,8 @@ id,jp,model,alts
 16,ジムは私の助言にどうしても耳をかそうとはしなかった．,Jim wouldn’t listen to my advice.,wouldn't=>would not
 17,エミリーは学生のころはよく夜ふかしをしたものだった．,Emily would often stay up late when she was a student.,when she was a student=>when a student
 18,ジェイソンは今ごろ，旅を楽しんでいることだろう．,Jason would be enjoying his trip now.,would=>will
-19,いっしょにコーヒーを飲みませんか．― はい，ありがとう．(間は半角スペース),"Will you join us for a cup of coffee? Yes, thank you.",Will=>Won't
-20,外食しようか．― うん，そうしよう． / いや，やめておこう．(間は半角スペース),"Shall we eat out? Yes, let’s. No, let’s not.",
+19,いっしょにコーヒーを飲みませんか．【join】,Will you join us for a cup of coffee?,Will=>Won't
+20,外食しようか．【助動詞を使って】― うん，そうしよう． / いや，やめておこう．(間は半角スペース),"Shall we eat out? Yes, let’s. No, let’s not.",
 21,お茶［紅茶］をいれましょうか．― はい，お願いします． / いいえ，結構です．(間は半角スペース),"Shall I make you some tea? Yes, please. No, thanks.",
 22,我々は他人の権利を尊重すべきである．,We should respect the rights of others.,
 23,彼らはきっと10時までにはそこに着くと思います．（着くはずだ）,They should arrive there by ten o’clock.,
@@ -26,18 +26,18 @@ id,jp,model,alts
 25,彼女は私たちに部屋から出るように強要した．(that),She insisted that we should go out of the room.,we should=>we go
 26,彼女がそんなことを言うなんて驚きだ．(that),It is surprising that she should say so.,
 27,君は十分な睡眠をとるべきです．６語,You ought to get enough sleep.,
-28,なんてひどい天気だ．今日は家にいるべきだな．,What weather!  We had better stay indoors today.,We had=>We'd|indoors=>home
+28,なんてひどい天気だ！今日は家（屋内）にいるべきだな．（しないと悪いことが起こる）,What weather!  We had better stay indoors today.,We had=>We'd
 29,当時人々は歩いて旅をしたものだ．,In those days people used to travel on foot.,
 30,この辺りには以前，おいしいレストランが何軒かあった．,There used to be several good restaurants around here.,
 31,道がぬれている．昨夜雨が降ったにちがいない．,The road is wet.  It must have rained last night.,
 32,傘が見つからない．電車に置き忘れたのかもしれない．,I can’t find my umbrella.  I may have left it on the train.,can't=>cannot
 33,ジムはちょうど今出たところだ．そう遠くに行ったはずがない．,Jim has just left.  He can’t have gone very far.,can't=>cannot
 34,前もって電話をしておいてくれればよかったのに．,You should have called me beforehand.,should=>ought to
-35,一列に並んで待っていただけませんか．― ああ，ごめんなさい．(間は半角スペース),"Would you wait in line, please? Oh, I’m sorry.",
-36,その写真を見せていただけますか［見てもよろしいですか］．― ええ，どうぞ．(間は半角スペース),"Could I see the picture? Yes, of course you can.",
-37,このジーンズを試着したいのですが．,I’d like to try on these jeans.,
-38,ミルクはいかがですか．― ええ，いただきます．(間は半角スペース),"Would you like some milk? Yes, please.",
+35,一列に並んで待っていただけませんか．,"Would you wait in line, please?",
+36,その写真を見せていただけますか［見てもよろしいですか］．,Could I see the picture?,
+37,このジーンズを試着したいのですが．,I’d like to try on these jeans.,I'd=>I would
+38,ミルクはいかがですか．,Would you like some milk?,
 39,次のバスを待つくらいならむしろ歩いたほうがよい．,I would rather walk than wait for the next bus.,I would=>I'd
-40,そのニュースはたぶん本当だろう．,The news may well be true.,
-41,部屋のそうじでもしようか．ほかに何もすることがないし．,I may as well clean my room.  There’s nothing else to do.,may=>might
+40,そのニュースはたぶん本当だろう．（十分可能性がある）６語,The news may well be true.,
+41,部屋のそうじでもしようかな．７語　ほかに何もすることがないし．,I may as well clean my room.  There’s nothing else to do.,may=>might
 42,君はそのボタンを押しさえすればいいんだ．,You only have to push the button.,All you have to do is push the button.|All you have to do is to push the button.
