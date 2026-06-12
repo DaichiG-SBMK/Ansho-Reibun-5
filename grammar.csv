@@ -15,7 +15,7 @@ id,jp,model,alts
 14,私のネコはよく何時間も日なたぼっこして［←日なたに座って］いる．,My cat will often sit in the sun for hours.,
 15,今は電話しないように．あの人たちは食事中でしょうから．（今彼らに電話しないで。夕飯中だろう。）,Don’t phone them now.  They’ll be having dinner.,phone=>call
 16,ジムは私の助言にどうしても耳をかそうとはしなかった．,Jim wouldn’t listen to my advice.,wouldn't=>would not
-17,エミリーは学生のころはよく夜ふかしをしたものだった．,Emily would often stay up late when she was a student.,when she was a student=>when a student
+17,エミリーは学生のころはよく夜ふかしをしたものだった．,Emily would often stay up late when she was a student.,when she was a student=>when a student|would often=>would
 18,ジェイソンは今ごろ，旅を楽しんでいることだろう．,Jason would be enjoying his trip now.,would=>will
 19,いっしょにコーヒーを飲みませんか．【join】,Will you join us for a cup of coffee?,Will=>Won't
 20,外食しようか．【助動詞を使って】― うん，そうしよう． / いや，やめておこう．(間は半角スペース),"Shall we eat out? Yes, let’s. No, let’s not.",
@@ -24,20 +24,20 @@ id,jp,model,alts
 23,彼らはきっと10時までにはそこに着くと思います．（着くはずだ）,They should arrive there by ten o’clock.,
 24,君は医者に診てもらうことが必要だ．(that),It is necessary that you should see a doctor.,you should=>you
 25,彼女は私たちに部屋から出るように強要した．(that),She insisted that we should go out of the room.,we should=>we go
-26,彼女がそんなことを言うなんて驚きだ．(that),It is surprising that she should say so.,
+26,彼女がそんなことを言うなんて驚きだ．(that),It is surprising that she should say so.,It is=>It's|so=>such a thing
 27,君は十分な睡眠をとるべきです．６語,You ought to get enough sleep.,
 28,なんてひどい天気だ！今日は家（屋内）にいるべきだな．（しないと悪いことが起こる）,What weather!  We had better stay indoors today.,We had=>We'd
 29,当時人々は歩いて旅をしたものだ．,In those days people used to travel on foot.,
 30,この辺りには以前，おいしいレストランが何軒かあった．,There used to be several good restaurants around here.,
 31,道がぬれている．昨夜雨が降ったにちがいない．,The road is wet.  It must have rained last night.,
 32,傘が見つからない．電車に置き忘れたのかもしれない．,I can’t find my umbrella.  I may have left it on the train.,can't=>cannot
-33,ジムはちょうど今出たところだ．そう遠くに行ったはずがない．,Jim has just left.  He can’t have gone very far.,can't=>cannot
+33,ジムはちょうど今出たところだ．そう遠くに行ったはずがない．,Jim has just left.  He can’t have gone very far.,can't=>cannot|just left=>just left now
 34,前もって電話をしておいてくれればよかったのに．,You should have called me beforehand.,should=>ought to
-35,一列に並んで待っていただけませんか．,"Would you wait in line, please?",
+35,一列に並んで待っていただけませんか．,"Would you wait in line, please?",Would you please wait in line?|Would you wait in line?
 36,その写真を見せていただけますか［見てもよろしいですか］．,Could I see the picture?,
-37,このジーンズを試着したいのですが．,I’d like to try on these jeans.,I'd=>I would
-38,ミルクはいかがですか．,Would you like some milk?,
+37,このジーンズを試着したいのですが．,I’d like to try on these jeans.,I'd=>I would|I'd like to try these jeans on.
+38,ミルクはいかがですか．（ていねい）,Would you like some milk?,
 39,次のバスを待つくらいならむしろ歩いたほうがよい．,I would rather walk than wait for the next bus.,I would=>I'd
 40,そのニュースはたぶん本当だろう．（十分可能性がある）６語,The news may well be true.,
-41,部屋のそうじでもしようかな．７語　ほかに何もすることがないし．,I may as well clean my room.  There’s nothing else to do.,may=>might
+41,部屋のそうじでもしようかな．７語　ほかに何もすることがないし．,I may as well clean my room.  There’s nothing else to do.,may=>might|There's=>There is
 42,君はそのボタンを押しさえすればいいんだ．,You only have to push the button.,All you have to do is push the button.|All you have to do is to push the button.
