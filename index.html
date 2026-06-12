@@ -128,7 +128,7 @@ th{
 <div class="wrap">
 <div class="menu">
 <button id="btnSeq" class="btn"></button>
-<button id="btnRand" class="btn">全部ランダム</button>
+<button id="btnRand" class="btn">１５題ランダム</button>
 <button id="btnWrongRand" class="btn">誤答ランダム</button>
 <button id="btnStats" class="btn">学習記録</button>
 <button id="btnReset" class="btn">記録リセット</button>
@@ -165,6 +165,57 @@ function normalize(s){
           .replace(/\s+/g," ")
           .trim()
           .toLowerCase();
+}
+
+function applyReplacement(text, from, to){
+  if(!from) return text;
+
+  // まずは大文字小文字も含めて完全一致で置換
+  if(text.includes(from)){
+    return text.split(from).join(to);
+  }
+
+  // 大文字小文字だけ違う場合にも対応
+  const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return text.replace(new RegExp(escaped, "gi"), to);
+}
+
+function parseAltRule(alt){
+  const s = (alt || "").trim();
+  if(!s) return null;
+
+  // 「置き換え元=>置き換え後」の形式なら置換ルールとして扱う
+  if(s.includes("=>")){
+    const parts = s.split("=>");
+    const from = parts.shift().trim();
+    const to = parts.join("=>").trim();
+    return {type:"rule", from, to};
+  }
+
+  // => がない場合は、従来通り「alts に書いた文そのもの」を別解にする
+  return {type:"answer", text:s};
+}
+
+function acceptableAnswers(q){
+  const parsed = q.alts.map(parseAltRule).filter(Boolean);
+  const rules = parsed.filter(x => x.type === "rule");
+  const directAnswers = parsed.filter(x => x.type === "answer").map(x => x.text);
+
+  // 複数の置換ルールがある場合、全組み合わせを作る。
+  // 例：A=>B | C=>D なら、
+  // 元文 / Aだけ置換 / Cだけ置換 / AもCも置換 をすべて正答にする。
+  let generated = [q.model];
+
+  rules.forEach(rule => {
+    const next = [];
+    generated.forEach(ans => {
+      next.push(ans); // このルールを使わないパターン
+      next.push(applyReplacement(ans, rule.from, rule.to)); // このルールを使うパターン
+    });
+    generated = next;
+  });
+
+  return [...new Set([...generated, ...directAnswers].map(normalize))];
 }
 
 async function loadData(){
@@ -283,7 +334,7 @@ function startWrongRand(){
 
   if (pool.length === 0) {
     document.getElementById("main").innerHTML =
-      "学習記録に誤答がまだありません。まず「全部順番」または「全部ランダム」で間違えると出題されます。";
+      "学習記録に誤答がまだありません。まず「全部順番」または「１５題ランダム」で間違えると出題されます。";
     return;
   }
 
@@ -352,7 +403,7 @@ function check(){
   const id=session.ids[session.idx];
   const q=byId.get(id);
   const user=normalize(document.getElementById("ans").value);
-  const accept=[q.model,...q.alts].map(normalize);
+  const accept=acceptableAnswers(q);
   const ok=accept.includes(user);
   if(!ok && session.mode!=="wrongRand"){
     statFor(store,id).wrong++;
